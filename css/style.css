@@ -1,0 +1,100 @@
+body {
+    font-family: Helvetica, sans-serif;        
+    font-size: 16px;
+    color: darkslateblue;
+    border: 5px ridge darkslateblue;
+    margin: 5px;
+    padding: 5px;
+  }
+
+.row {
+  display: flex;
+   }
+
+.column1 {
+   width:300px;
+ }
+.column2 {
+   width:2000px;
+}
+
+#name {
+  text-align: center;
+  color: blue;
+ }
+
+h3 {
+ font-weight: 900;
+  }
+
+.change {
+  text-transform: uppercase;
+  transform: scale(2, 2);
+ }
+       
+#cornell{
+  width: 150px;
+  padding-top:40px;
+}
+
+#cornell:hover{
+  transform-origin: 0 0;
+  transform: scale(3,3);
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333333;;
+}
+
+.nav-bar  div {
+  color: white;
+  width: 200px;
+  text-align: center;
+ }
+
+.nav-bar  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  
+}
+.nav-bar  div:hover {
+  background-color: #111111;
+}
+
+.gif-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gif-container img{
+ width: 150px;
+ height:150px;
+ padding-right:10px;
+}
+
+
+.video-container{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.video-container div {
+  padding-right: 50px;
+  text-align: center;
+ 
+ }
+
+#dotmed:hover{
+   font-size: 20px;
+}
+
+#DEP:hover{
+    font-size: 20px;
+}
+
